@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Background Remover</title>
+    <link rel="icon" href="../images/logo.jpg">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="bg.css">
+</head>
+<body>
+    <div style="width: 100%; height: 100%; position: relative; background: white">
+        <img style="width: 262.69px; height: 100px; left: 589px; top: 7px; position: absolute" src="../images/nStore 001 1.png" />
+        <div style="width: 585px; height: 38px; left: 423px; top: 247px; position: absolute; text-align: center; color: #181818; font-size: 24px; font-family: Poppins; font-weight: 700; letter-spacing: 0.72px; word-wrap: break-word">Upload an image to remove the background</div>
+        
+        
+        <div style="width: 562px; height: 73px; left: 439px; top: 130px; position: absolute">
+            <div style="width: 562px; height: 73px; left: 0px; top: 0px; position: absolute; border-radius: 8px; border: 1px black solid"></div>
+            <div style="width: 499px; height: 44px; left: 21px; top: 18px; position: absolute">
+                <label class="status-label">
+                    <input type="radio" name="status" value="live">
+                    <span>LIVE</span>
+                </label>
+            
+                <label class="status-label">
+                    <input type="radio" name="status" value="beta">
+                    <span>BETA</span>
+                </label>
+            
+                <label class="status-label">
+                    <input type="radio" name="status" value="dev">
+                    <span>DEV</span>
+                </label>
+            
+                <label class="status-label">
+                    <input type="radio" name="status" value="uat">
+                    <span>UAT</span>
+                </label>
+            </div>
+        </div>
+
+
+        <div style="width: 925px; height: 497px; left: 258px; top: 323px; position: absolute">
+            <div style="width: 925px; height: 497px; left: 0px; top: 0px; position: absolute">
+                <div style="width: 925px; height: 264px; left: 0px; top: 18px; position: absolute; background: #FAFAFA; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border: 6px white solid"></div>
+                <div style="width: 921px; height: 497px; left: 3px; top: 0px; position: absolute; border-radius: 45.95px"></div>
+            </div>
+            
+            
+            
+            <div style="width: 302px; height: 226px; left: 332px; top: 150px; position: absolute">
+                <div style="width: 461px; height: 90px; left: -100px; top: 76px; position: absolute; text-align: center"><span style="color: #121111; font-size: 22.25px; font-family: Poppins; font-weight: 700; letter-spacing: 0.67px; word-wrap: break-word">or drop a file,</span>
+                    <span style="color: #767272; font-size: 22.25px; font-family: Poppins; font-weight: 500; letter-spacing: 0.67px; word-wrap: break-word">paste image or URL</span></div>
+                <input type="file" id="myfile" name="myfile">      
+                
+                <div>
+                    <a href="http://127.0.0.1:5500/Operation/BG_remove/current.html">
+                        <button type="button" class="butt" id="Butt" name="Butt">Next </button>
+
+                    </a>
+                </div>
+            </div>
+
+
+            
+
+        </div>
+    </div>
+</body>
+</html>

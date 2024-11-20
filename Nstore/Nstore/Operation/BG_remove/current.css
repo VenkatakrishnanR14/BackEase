@@ -1,0 +1,15 @@
+/* body{
+    overflow:hidden
+} */
+
+.butt{
+    width: 279px; height: 46px; padding: 7px 45x; left: -10px; top: 10px; position: absolute; background: #FF8700; box-shadow: 3.7799999713897705px 3.7799999713897705px 5.669999599456787px rgba(171.38, 193.67, 212.24, 0.21); border-radius: 14.17px; overflow: hidden; justify-content: center; align-items: center; gap: 10px; display: inline-flex;
+    text-align: center; color: white; font-size: 21.16px; font-family: Poppins; font-weight: 500; letter-spacing: 0.63px; word-wrap: break-word;border-color: #FF8700;
+
+}
+
+
+.butt:hover{
+    background: #f9a019;
+    color: white;
+}

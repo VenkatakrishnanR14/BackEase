@@ -1,0 +1,62 @@
+.butt1{
+    width: 71.10px; height: 21.88px; 
+    padding: 7.81px; left: 107.83px; top: 170.36px; 
+    position: absolute; 
+    background: #1B3277; border-radius: 8.59px; 
+    justify-content: center; align-items: center; 
+    gap: 7.81px; 
+    display: inline-flex;
+    color: white; 
+    font-size: 11.72px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 20.31px; 
+    word-wrap: break-word;
+    padding: 17px 40px;
+    
+}
+
+.butt1:hover{
+    background: #FF8700;
+    color: #1B3277;
+    border-color:#FF8700
+}
+
+.butt2{
+    width: 71.10px; height: 21.88px; 
+    padding: 7.81px; left: 107.83px; top: 170.36px; 
+    position: absolute; background: #1B3277; border-radius: 8.59px; 
+    justify-content: center; align-items: center; gap: 7.81px; display: inline-flex;
+    color: white; font-size: 11.72px; font-family: Poppins; font-weight: 600; line-height: 20.31px; word-wrap: break-word;
+    padding: 17px 40px;
+    
+}
+
+.butt2:hover{
+    background: #8787FE;
+    color: #1B3277;
+    border-color:#8787FE
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply animation to the first section */
+.section1 {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Apply animation to the second section */
+.section2 {
+    animation: fadeIn 0.5s ease-in-out;
+    /* animation-delay: 0.5s; Add a delay to the second section */
+}
